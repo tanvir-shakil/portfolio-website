@@ -1,0 +1,355 @@
+/* root section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+
+.header-section{
+    height: 600px;
+    padding: 100px 50px 0px 50px;
+}
+
+.header-title{
+    padding-top: 30px;
+}
+
+.header-hello{
+    font-size: 30px;
+    font-family: cursive;
+    color: dimgray;
+}
+.highLight{
+    color: #F86961;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+.para{
+    font-size: medium;
+    font-family: cursive;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.button{
+    margin-top: 30px;
+}
+
+.button-link{
+    text-decoration: none;
+    background-color:#F86961;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 35px;
+    border-radius: 5px;
+    font-family: system-ui;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+img{
+    width: 90%;
+}
+
+/* About Section  */
+
+.about-section{
+    height: 500px;
+    padding: 100px 50px 0px 50px;
+}
+
+.about{
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family: cursive;
+    color: #4D41CB;
+}
+
+.about-button{
+    background-color: #4D41CB;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 35px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: system-ui;
+}
+
+/* Skill Section */
+
+.skils-section{
+    padding: 0px 100px;
+    height: 400px;
+    margin-top: 200px;
+}
+
+.skils{
+    width: 40%;
+    float: left;
+}
+
+
+.skill-bar{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #34495e;
+    color: #fff;
+}
+
+h2.header-title {
+    font-size: 40px;
+    color: dimgray;
+    padding: 0px 0px;
+    font-family: ui-monospace;
+}
+
+p.skill-title {
+    font-size: 20px;
+    padding: 15px 0px;
+    font-family: cursive;
+
+}
+
+.skill-bar.html {
+    width: 80%;
+}
+
+.skill-bar.css {
+    width: 55%;
+}
+
+.skill-bar.github {
+    width: 35%;
+}
+
+.skill-bar.portfolio {
+    width: 60%;
+}
+
+
+/* Exprience Section */
+
+.exprience-heading{
+    font-size: 45px;
+    font-family: ui-monospace;
+    color: gray;
+    margin: -20px;
+
+}
+
+h4{
+    font-size: 30px;
+    color: #000000b0;
+    padding-bottom: 10px;
+}
+
+.backend{
+    color: #FF428D;
+    text-transform: capitalize;
+    font-family: cursive;
+    padding-bottom: 5px;  
+}
+.ex-para{
+    font-size: 15px;
+    font-family: cursive;
+    text-align: justify;
+}
+
+.frontend{
+    color: #6B48DA;
+    text-transform: capitalize;
+    font-family: cursive;
+    padding-bottom: 5px;
+}
+
+.single-exprience{
+    height: 170px;
+    padding: 37px;
+}
+
+/* Work Section */
+
+.work-section{
+    padding: 100px;
+    height: 400px;
+   
+ }
+
+ .header-work{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 40px;
+    padding-top: 100px;
+    color: dimgray;
+}
+ 
+ .work-img{
+     width: 30%;
+     float: left;
+     padding-left: 3%;
+ }
+ 
+ .img-work{
+     width: 100%;
+ }
+ 
+ /* work-section-two */
+ .work-section-two{
+    padding: 100px;
+    height: 600px;
+   
+ }
+
+ .work-section-img{
+    width: 30%;
+    float: left;
+    padding-left: 3%;
+ }
+
+ .header-none{
+    padding-bottom: 40px;
+    padding-top: 50px;
+ }
+
+ h4.header-work.hideen {
+    visibility: collapse;
+}
+
+
+/* Testimonial Section */
+
+.testimonial-section{
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    display: inline;
+}
+.testimonial-section img{
+    width: 7%;
+    margin: 20px 0px;
+}
+
+h2.test-header {
+    font-size: 40px;
+    color: dimgray;
+    text-transform: uppercase;
+}
+
+p.test-para {
+    font-size: 17px;
+    color: #0000009e;
+    padding: 0px 450px;
+    font-family: system-ui;
+}
+
+h4.author-name {
+    color: #1e1c1cf2;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.doted {
+    font-weight: bolder;
+    font-size: 50px;
+}
+.color{
+    color:#F86961;
+}
+p.author-position {
+    margin-bottom: -20px;
+}
+
+
+/* contact section */
+.contact-section{
+    height: 400px;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    font-size: 50px;
+    top: 65%;
+    text-transform: uppercase;
+    color: #fff;
+    left: 36%;
+    font-family: fantasy;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1.5px;
+}
+
+.contact-section img{
+    padding-top: 100px;
+    width: 60%;
+}
+
+.right {
+    position: absolute;
+    bottom: 100px;
+    right: 360px;
+}
+
+.contact-button {
+    background-color: #F86961;
+    padding: 15px;
+}
+
+/* social section */
+.social-media{
+    height: 400px;
+    text-align: center;
+    width: 5%;
+    display: inline;
+}
+
+h6 {
+    font-size: 25px;
+    color: dimgray;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+p.gmail {
+    font-size: 30px;
+    color: #000000c7;
+    font-family: cursive;
+    padding-top: 10px;
+}
+
+.social-icon img {
+    width: 3%;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+/* Footer section */
+p.copyright {
+    background-color: dimgray;
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 100px;
+}
